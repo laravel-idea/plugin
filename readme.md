@@ -8,7 +8,7 @@ Laravel/Lumen framework plugin for PhpStorm
 
 [Plugin URL](https://plugins.jetbrains.com/plugin/13441-laravel-idea)
 
-[Change log](changelog.md)
+[Change log](https://laravel-idea.com/docs/changelog)
 
 Roadmap:
 
