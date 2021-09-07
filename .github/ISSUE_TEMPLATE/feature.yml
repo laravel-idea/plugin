@@ -1,0 +1,14 @@
+name: Feature Request
+description: Propose a new feature for Laravel Idea
+title: "[Feature Request]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Laravel Idea likes feature requests!
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+    validations:
+      required: true

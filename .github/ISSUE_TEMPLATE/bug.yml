@@ -1,0 +1,42 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to file a bug report.
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: What happened and what did you expect to happen?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Plugin version
+      description: "Please provide a Laravel Idea version. It can be found in the Settings (or Preferences) > Plugins."
+      placeholder: "For example: 4.4.0.212"
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      description: "Which operating system do you use? It might be important in some cases."
+      options:
+        - MacOS
+        - Windows
+        - Linux
+        - Somewhere else (please specify in the description)
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Which steps do we need to take to reproduce this error?
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: If applicable, provide relevant log output.
+      render: shell
