@@ -4,5 +4,5 @@ contact_links:
     url: https://laravel-idea.com/docs/
     about: 'This repository is for reporting bugs and proposing new features. If you need help with your first steps with Laravel Idea, check out the docs!'
   - name: Security vulnerabilities
-    url: mailto:support@laravel-idea.com
-    about: If you want to report a security issue, please contact our support.
+    url: https://laravel-idea.com/
+    about: If you want to report a security issue, please contact our support - support@laravel-idea.com
